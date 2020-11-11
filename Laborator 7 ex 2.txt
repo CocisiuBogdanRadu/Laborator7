@@ -1,0 +1,87 @@
+<html>
+  <head>
+  
+  <script>
+   function myFunction(){
+  document.getElementById("bogdan").src="bogdanel.jpg";
+  
+ 
+  document.getElementById("m1").innerHTML="Inginerie electrica";
+  document.getElementById("m2").innerHTML="Inginer Java";
+  document.getElementById("m3").innerHTML="Inginer calculatoare";
+  document.body.style.background= "Orange";
+  document.getElementById("bogdan").style.border="9px";
+  document.getElementById("bogdan").style.opacity="0.9";
+  document.getElementById("hobby1").innerHTML="Sa ma dau cu bicicleta"
+  document.getElementById("hobby2").innerHTML="Sa ma plimb"
+  document.getElementById("hobby3").innerHTML="Sa gatesc"
+  document.getElementById("numele").innerHTML="Cocisiu B.Inginer calculatorist"
+  }	
+  </script>
+  
+  <script>
+  
+  var x= 2020;
+  
+function mouseOut() {
+  document.getElementById("an").innerHTML ="Anul nasterii 2001"
+}
+
+function mouseOver() {
+  document.getElementById("an").innerHTML = x-2001;
+}
+</script>
+  
+  
+  
+  
+  
+
+  
+  <link rel="stylesheet" type="text/css" href="C:\Users\ossku\Desktop\Lab07\css.css">
+  <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css"
+   <title>Pagina de profil </title>
+   </head>
+   <body>
+   <h1 id="numele" class="w3-panel w3-leftbar w3-lime w3-xxlarge w3-serif">Cocisiu Bogdan</h1>
+   <img id= bogdan class="img" src="Cocisiu bogdan2.png" width="500" height="400" >
+   <p class="bogdan">bogdan_cocisiu7@yahoo.com</p>
+   <p class="bogdan">Educatia este cea mai buna provizie care o poti face pentru batranete.</p>
+   <p id="an" onmouseover="mouseOver()" onmouseout="mouseOut()" > Anul nasterii 2001</p>
+   <h2>Materii preferate</h2>
+   <table>
+   <tbody>
+   <table  >
+
+
+<th>  <a id="m1" href="https://etti.utcluj.ro/files/FiseDisciplina/TstRo/EL3105.pdf"> Programarea calculatoarelor </a></th>
+<th>  <a  id="m2" href="https://etti.utcluj.ro/files/FiseDisciplina/TstRo/EL3104.pdf"> Componente si circuite pasive </a></th>
+
+<th>  <a  id="m3" href="https://etti.utcluj.ro/files/FiseDisciplina/TstRo/EL3106.pdf"> Informatica aplicata </a></th>
+
+
+    </tr>
+
+</table>
+
+
+   <th>
+
+   <h2 > Hobbyuri: </h2>
+   <ul class="w3-ul">
+    <li id="hobby1" > Sport </li>
+    <li id="hobby2" > Gaming </li>
+    <li id="hobby3" > Cititul </li>
+
+</ul>
+</body>
+
+
+<button type="button" onclick="myFunction()">Alta Viata</button>
+
+<p align="right" style="color: blue; font-size: 40px"  > <a href="C:\Users\ossku\Desktop\Lab07\ChisSebastian2.html"> Next </a></p>
+
+<p align="left" style="color: red; font-size: 40px"  > <a href="C:\Users\ossku\Desktop\Lab07\Catalog.html"> Back </a></p>
+
+
+</html>
